@@ -1,5 +1,5 @@
 <?php
-
+/*
 $username = "root";
 $password = "";         // No password for localhost
 $db = "c273_p09";
@@ -7,8 +7,8 @@ $db = "c273_p09";
 $host = "localhost";
 $link = mysqli_connect($host, $username, $password, $db) or
         die(mysqli_connect_error());
+*/
 
-/*
   $connectstr_dbhost = '';
   $connectstr_dbname = '';
   $connectstr_dbusername = '';
@@ -33,7 +33,6 @@ $link = mysqli_connect($host, $username, $password, $db) or
   echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
   exit;
   }
- * 
- */
+ 
 ?>
 
